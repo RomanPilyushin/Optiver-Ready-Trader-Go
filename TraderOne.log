@@ -1,0 +1,115 @@
+2024-04-12 14:20:03,731 [INFO   ] [APP] TraderOne started with arguments={rtg.py, run, TraderOne.py}
+2024-04-12 14:20:03,731 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"TraderOne","Secret":"secret"}
+2024-04-12 14:20:03,746 [INFO   ] [CONNECTION] fd=896 connection established: peer=127.0.0.1:12345
+2024-04-12 14:20:08,745 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 1
+2024-04-12 14:20:08,745 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 1
+2024-04-12 14:20:08,948 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 2
+2024-04-12 14:20:08,995 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 2
+2024-04-12 14:20:08,995 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 2
+2024-04-12 14:20:08,999 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 3
+2024-04-12 14:20:09,000 [INFO   ] [TRADER] Received order status for order 1 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:09,000 [INFO   ] [TRADER] Received order status for order 2 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:09,266 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 3
+2024-04-12 14:20:09,266 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 3
+2024-04-12 14:20:09,267 [INFO   ] [TRADER] Received order status for order 1 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:09,268 [INFO   ] [TRADER] Received order status for order 2 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:09,268 [INFO   ] [TRADER] Received order status for order 3 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:09,268 [INFO   ] [TRADER] Received order status for order 4 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:09,490 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 4
+2024-04-12 14:20:09,490 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 4
+2024-04-12 14:20:09,744 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 5
+2024-04-12 14:20:09,744 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 5
+2024-04-12 14:20:10,012 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 6
+2024-04-12 14:20:10,012 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 6
+2024-04-12 14:20:10,015 [INFO   ] [TRADER] Received order status for order 4 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:10,015 [INFO   ] [TRADER] Received order status for order 5 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:10,207 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 4
+2024-04-12 14:20:10,250 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 7
+2024-04-12 14:20:10,250 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 7
+2024-04-12 14:20:10,361 [INFO   ] [TRADER] Received order filled for order 5 with price 82400 and volume 10
+2024-04-12 14:20:10,361 [INFO   ] [TRADER] Received order status for order 5 with fill volume 10 remaining 0 and fees -82
+2024-04-12 14:20:10,363 [INFO   ] [TRADER] Received trade ticks for instrument 1 with sequence number 2
+2024-04-12 14:20:10,458 [INFO   ] [TRADER] Received order filled for order 3 with price 82300 and volume 3
+2024-04-12 14:20:10,458 [INFO   ] [TRADER] Received order status for order 3 with fill volume 3 remaining 7 and fees -25
+2024-04-12 14:20:10,459 [INFO   ] [TRADER] Received trade ticks for instrument 1 with sequence number 3
+2024-04-12 14:20:10,505 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 8
+2024-04-12 14:20:10,506 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 8
+2024-04-12 14:20:10,506 [INFO   ] [TRADER] Received order status for order 3 with fill volume 3 remaining 0 and fees -25
+2024-04-12 14:20:10,506 [WARNING] [TRADER] Error with order 6: price is not a multiple of tick size
+2024-04-12 14:20:10,506 [INFO   ] [TRADER] Received order status for order 6 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:10,506 [WARNING] [TRADER] Error with order 7: price is not a multiple of tick size
+2024-04-12 14:20:10,506 [INFO   ] [TRADER] Received order status for order 7 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:10,699 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 5
+2024-04-12 14:20:10,757 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 9
+2024-04-12 14:20:10,757 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 9
+2024-04-12 14:20:10,761 [INFO   ] [TRADER] Received order status for order 8 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:10,761 [WARNING] [TRADER] Error with order 9: price is not a multiple of tick size
+2024-04-12 14:20:10,761 [INFO   ] [TRADER] Received order status for order 9 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:10,994 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 10
+2024-04-12 14:20:10,994 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 10
+2024-04-12 14:20:10,994 [INFO   ] [TRADER] Received order status for order 8 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:10,994 [INFO   ] [TRADER] Received order status for order 10 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:10,995 [WARNING] [TRADER] Error with order 11: price is not a multiple of tick size
+2024-04-12 14:20:10,995 [INFO   ] [TRADER] Received order status for order 11 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,262 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 11
+2024-04-12 14:20:11,262 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 11
+2024-04-12 14:20:11,264 [INFO   ] [TRADER] Received order status for order 10 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,264 [WARNING] [TRADER] Error with order 12: price is not a multiple of tick size
+2024-04-12 14:20:11,264 [INFO   ] [TRADER] Received order status for order 12 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,264 [WARNING] [TRADER] Error with order 13: price is not a multiple of tick size
+2024-04-12 14:20:11,264 [INFO   ] [TRADER] Received order status for order 13 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,515 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 12
+2024-04-12 14:20:11,515 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 12
+2024-04-12 14:20:11,518 [WARNING] [TRADER] Error with order 14: price is not a multiple of tick size
+2024-04-12 14:20:11,518 [INFO   ] [TRADER] Received order status for order 14 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,518 [WARNING] [TRADER] Error with order 15: price is not a multiple of tick size
+2024-04-12 14:20:11,518 [INFO   ] [TRADER] Received order status for order 15 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,700 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 6
+2024-04-12 14:20:11,754 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 13
+2024-04-12 14:20:11,755 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 13
+2024-04-12 14:20:11,756 [WARNING] [TRADER] Error with order 16: price is not a multiple of tick size
+2024-04-12 14:20:11,756 [INFO   ] [TRADER] Received order status for order 16 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,756 [WARNING] [TRADER] Error with order 17: price is not a multiple of tick size
+2024-04-12 14:20:11,757 [INFO   ] [TRADER] Received order status for order 17 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,992 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 14
+2024-04-12 14:20:11,992 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 14
+2024-04-12 14:20:11,992 [WARNING] [TRADER] Error with order 18: price is not a multiple of tick size
+2024-04-12 14:20:11,992 [INFO   ] [TRADER] Received order status for order 18 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:11,992 [WARNING] [TRADER] Error with order 19: price is not a multiple of tick size
+2024-04-12 14:20:11,992 [INFO   ] [TRADER] Received order status for order 19 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:12,060 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 7
+2024-04-12 14:20:12,260 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 15
+2024-04-12 14:20:12,261 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 15
+2024-04-12 14:20:12,261 [WARNING] [TRADER] Error with order 20: price is not a multiple of tick size
+2024-04-12 14:20:12,261 [INFO   ] [TRADER] Received order status for order 20 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:12,261 [WARNING] [TRADER] Error with order 21: price is not a multiple of tick size
+2024-04-12 14:20:12,261 [INFO   ] [TRADER] Received order status for order 21 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:12,499 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 16
+2024-04-12 14:20:12,499 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 16
+2024-04-12 14:20:12,501 [INFO   ] [TRADER] Received order status for order 22 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:12,502 [WARNING] [TRADER] Error with order 23: price is not a multiple of tick size
+2024-04-12 14:20:12,502 [INFO   ] [TRADER] Received order status for order 23 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:12,612 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 8
+2024-04-12 14:20:12,753 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 17
+2024-04-12 14:20:12,753 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 17
+2024-04-12 14:20:12,754 [INFO   ] [TRADER] Received order status for order 22 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:12,754 [WARNING] [TRADER] Error with order 24: price is not a multiple of tick size
+2024-04-12 14:20:12,755 [INFO   ] [TRADER] Received order status for order 24 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:12,755 [WARNING] [TRADER] Error with order 25: price is not a multiple of tick size
+2024-04-12 14:20:12,755 [INFO   ] [TRADER] Received order status for order 25 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:12,947 [INFO   ] [TRADER] Received trade ticks for instrument 0 with sequence number 9
+2024-04-12 14:20:13,008 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 18
+2024-04-12 14:20:13,008 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 18
+2024-04-12 14:20:13,008 [WARNING] [TRADER] Error with order 26: price is not a multiple of tick size
+2024-04-12 14:20:13,008 [INFO   ] [TRADER] Received order status for order 26 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:13,009 [WARNING] [TRADER] Error with order 27: price is not a multiple of tick size
+2024-04-12 14:20:13,009 [INFO   ] [TRADER] Received order status for order 27 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:13,248 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 19
+2024-04-12 14:20:13,248 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 19
+2024-04-12 14:20:13,248 [INFO   ] [TRADER] Received order status for order 28 with fill volume 0 remaining 10 and fees 0
+2024-04-12 14:20:13,248 [WARNING] [TRADER] Error with order 29: price is not a multiple of tick size
+2024-04-12 14:20:13,248 [INFO   ] [TRADER] Received order status for order 29 with fill volume 0 remaining 0 and fees 0
+2024-04-12 14:20:13,515 [INFO   ] [TRADER] Received order book for instrument 0 with sequence number 20
+2024-04-12 14:20:13,515 [INFO   ] [TRADER] Received order book for instrument 1 with sequence number 20
+2024-04-12 14:20:13,515 [WARNING] [TRADER] Error with order 30: price is not a multiple of tick size
+2024-04-12 14:20:13,515 [INFO   ] [TRADER] Received order status for order 30 with fill volume 0 remaining 0 and fees 0
